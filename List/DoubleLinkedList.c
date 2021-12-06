@@ -104,6 +104,7 @@ void insertMiddleNode(linkedList_h *DL, listNode *temp, char *newData) {
         newNode -> llink = temp -> rlink -> llink ;
         temp -> rlink = newNode;
         temp -> llink = newNode;
+
     }
 }
 
