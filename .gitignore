@@ -1,3 +1,22 @@
-/.vscode
-/practice001.c
-/practice001.exe
+#실행파일 제외
+*.dll
+*.exe
+*.o
+*.so
+*.com
+*.class
+#로그파일 제외
+*.log
+#문서 파일 제외
+*.xlsx
+*.xls
+*.pdf
+*.docs
+*.ppt
+*.pptx
+#패키지 파일 제외
+*.dmg
+*.iso
+*.tar
+*.zip
+*.gz
